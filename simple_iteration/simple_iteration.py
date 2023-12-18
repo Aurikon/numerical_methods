@@ -2,6 +2,9 @@
 # |g(x) - g(y)| <= q|x - y|  0<q<1
 # xn1 = g(xn)
 
+# g(x) = x - f(x) / alpha
+# 1) abs(alpha) > 1/2 max|(df(x)|     2) sgn(alpha) = sgn(df(x))     sgn(df(x))=constant on [a, b]
+
 def g(x):
     return 3.0 - abs(x) / 2.0
 
