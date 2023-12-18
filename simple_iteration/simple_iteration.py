@@ -10,7 +10,7 @@ def g(x):
 
 
 def simple(g, x0, epsilon=1e-6):
-    count = 0
+    count = 1
     xn = x0
     xn1 = g(xn)
     while abs(xn1 - xn) > epsilon:
