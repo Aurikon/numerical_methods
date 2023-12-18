@@ -4,7 +4,7 @@ def f(x):
 
 
 def bisection(f, a, b, epsilon=1e-5):
-    count = 0
+    count = 1
     c = a + ((b - a) / 2)
     while abs(f(c)) > epsilon:
         count += 1
